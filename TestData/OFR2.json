@@ -1,0 +1,252 @@
+{
+    "@type": "OfferBean",
+    "offerNumber": {
+        "@type": "GlobalCouponNumberBean",
+        "checkDigit": 2,
+        "companyPrefix": 2222111,
+        "couponReference": 333,
+        "serialComponent": 0
+    },
+    "distributionDetail": {
+	    	"@type": "DistributionDetailBean",
+		"offerId": 1,
+        "acquisitionPeriods": [
+            {
+	            "@type": "AcquisitionPeriodBean",
+                "timePeriod": {
+	                "@type": "TimePeriodBean",
+			        "endDateTime": "2020-01-31T21:51:51",
+			        "startDateTime": "2019-06-02T02:02:02"
+                }
+            },
+            {
+	            "@type": "AcquisitionPeriodBean",
+                "timePeriod": {
+	                "@type": "TimePeriodBean",
+			        "endDateTime": "2020-09-30T20:50:50",
+			        "startDateTime": "2020-02-01T01:01:01"
+                }
+            }
+        ],
+        "maximumOfferAcquisition": 10,
+        "publicationPeriod": {
+	        "@type": "PublicationPeriodBean",
+            "timePeriod": {
+                "@type": "TimePeriodBean",
+		        "endDateTime": "2020-06-13T23:53:53",
+		        "startDateTime": "2019-01-01T01:01:01"
+            }
+        }
+    },
+    "financialSettlementDetail": {
+	    "@type": "FinancialSettlementDetailBean",
+        "offerClearingInstruction": "offer clrng instn ..."
+    },
+    "marketingMaterial": {
+		"@type": "MarketingMaterialBean",
+        "artworks": [
+            {
+            	"@type": "ArtworkBean",
+                "artworkType": "PRODUCT_IMAGE",
+                "fileContentDescriptions": [
+                    {
+						"@type": "FileContentDescriptionBean",
+                        "fileContentDescription": "file content description 1"
+                    }
+                ],
+                "fileFormatName": "JPG",
+                "fileName": "artwork file name 1",
+                "fileUri": "www.uri.com ... 1"
+            },
+            {
+            	"@type": "ArtworkBean",
+                "artworkType": "PRODUCT_IMAGE",
+                "fileContentDescriptions": [
+                    {
+						"@type": "FileContentDescriptionBean",
+                        "fileContentDescription": "file content description 2"
+                    }
+                ],
+                "fileFormatName": "GIFF",
+                "fileName": "artwork file name 2",
+                "fileUri": "www.uri.com ... 2"
+            }
+        ],
+        "brandName": "brand name",
+		"offerId": 1,
+        "legalStatements": [
+            {
+				"@type": "LegalStatementBean",
+                "legalStatement": "legal statement 1"
+            },
+            {
+				"@type": "LegalStatementBean",
+                "legalStatement": "legal statement 2"
+            }
+        ],
+        "longDescriptions": [
+            {
+				"@type": "LongDescriptionBean",
+                "longDescription": "long desc 1"
+            },
+            {
+				"@type": "LongDescriptionBean",
+                "longDescription": "long desc 2"
+            }
+        ],
+        "productCategories": [
+            {
+				"@type": "ProductCategoryBean",
+                "categoryName": "product category 1"
+            },
+            {
+				"@type": "ProductCategoryBean",
+                "categoryName": "product category 2"
+            }
+        ],
+        "shortDescriptions": [
+            {
+				"@type": "ShortDescriptionBean",
+                "shortDescription": "short desc 1"
+            },
+            {
+				"@type": "ShortDescriptionBean",
+                "shortDescription": "short desc 2"
+            }
+        ]
+    },
+    "awarderDetails": [
+	    {
+		    "@type": "AwarderDetailBean",
+	        "offerId": 1,
+	        "awarderNumber": {
+		        "@type": "GlobalLocationNumberBean",
+			    "checkDigit": 7,
+			    "companyPrefix": 9111111,
+			    "locationReference": 1
+	        },
+	        "pointOfSales": [
+	            {
+		            "@type": "AwarderPointOfSaleBean",
+	                "storeNumber": {
+		                "@type": "GlobalLocationNumberBean",
+					    "checkDigit": 8,
+					    "companyPrefix": 9111111,
+					    "locationReference": 2
+	                },
+	                "storeInternalId": "store internal id 1"
+	            },
+	            {
+		            "@type": "AwarderPointOfSaleBean",
+	                "storeNumber": {
+		                "@type": "GlobalLocationNumberBean",
+					    "checkDigit": 9,
+					    "companyPrefix": 9111111,
+					    "locationReference": 3
+	                },
+	                "storeInternalId": "store internal id 2"
+	            }
+	        ],
+	        "redemptionPeriods": [
+	            {
+		            "@type": "RedemptionPeriodBean",
+	                "timePeriod": {
+		                "@type": "TimePeriodBean",
+	                    "endDateTime": "2016-07-21T23:59:59",
+	                    "startDateTime": "2016-07-21T00:00:00"
+	                }
+	            },
+	            {
+		            "@type": "RedemptionPeriodBean",
+	                "timePeriod": {
+		                "@type": "TimePeriodBean",
+	                    "endDateTime": "2016-08-21T23:59:59",
+	                    "startDateTime": "2016-07-21T01:02:03"
+	                }
+	            }
+	        ]
+	    }
+	],
+    "distributorNumber": {
+        "@type": "GlobalLocationNumberBean",
+        "checkDigit": 7,
+        "companyPrefix": 9111111,
+        "locationReference": 1
+    },
+    "issuerNumber": {
+        "@type": "GlobalLocationNumberBean",
+        "checkDigit": 8,
+        "companyPrefix": 9111111,
+        "locationReference": 2
+    },
+    "reward": {
+	    "@type": "RewardBean",
+		"offerId": 1,
+        "rewardTradeItems": [
+            {
+	            "@type": "RewardTradeItemBean",
+                "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 1,
+			        "companyPrefix": 9111111,
+			        "itemReference": 13
+                },
+                "tradeItemQuantity": 10
+            },
+            {
+	            "@type": "RewardTradeItemBean",
+                "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 5,
+			        "companyPrefix": 9111113,
+			        "itemReference": 15
+                },
+                "tradeItemQuantity": 20
+            }
+        ],
+        "rewardType": "TRADE_ITEM_REWARD"
+    },
+    "offerType": "MANUFACTURER_COUPON",
+    "purchaseRequirement": {
+	    "@type": "PurchaseRequirementBean",
+		"offerId": 1,
+        "purchaseMonetaryAmount": 0,
+        "purchaseTradeItems": [
+            {
+	            "@type": "PurchaseTradeItemBean",
+                "tradeItemGroup": "trade item group 1",
+                "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 1,
+			        "companyPrefix": 9111111,
+			        "itemReference": 13
+                },
+                "tradeItemQuantity": 10
+            },
+            {
+	            "@type": "PurchaseTradeItemBean",
+                "tradeItemGroup": "trade item group 2",
+                "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 5,
+			        "companyPrefix": 9111113,
+			        "itemReference": 15
+                },
+                "tradeItemQuantity": 30
+            }
+        ],
+        "purchaseRequirementType": "ONE_ITEM_PER_GROUP"
+    },
+    "offerStatus": "ACTIVE",
+    "timePeriod": {
+        	"@type": "TimePeriodBean",
+        "endDateTime": "2020-12-31T23:59:59",
+        "startDateTime": "2019-01-01T00:00:01"
+    },
+    "timeZone": "US/Central",
+    "usageCondition": {
+	    "@type": "UsageConditionBean",
+        "maximumCumulativeUse": 10,
+        "maximumUsePerTransaction": 2
+    }
+}

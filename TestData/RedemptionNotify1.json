@@ -1,0 +1,87 @@
+{
+	"@type" : "RedemptionNotificationMessage",
+	"header": {
+		"@type": "HeaderMessage",
+        "senderNumber" : {
+			"@type": "GlobalLocationNumberBean",
+	        "checkDigit": 9,
+		    "companyPrefix": 9111111,
+		    "locationReference": 3
+        },
+        "recipientNumber" : {
+			"@type": "GlobalLocationNumberBean",
+	        "checkDigit": 8,
+			"companyPrefix": 9111111,
+			"locationReference": 2
+        },
+		"messageId": 8,
+		"creationDateTime": "2015-08-22T22:52:52-06:00",
+		"changeDateTime": "",
+		"changeReason": ""
+	},
+	"awarderGln" : {
+		"@type": "GlobalLocationNumberBean",
+		"checkDigit": 7,
+		"companyPrefix": 9111111,
+		"locationReference": 1
+	},
+	"redemptionRecords" : [
+		{
+			"@type" : "CouponRedemptionRecordMessage",
+			"storeGln" : {
+		        "@type": "GlobalLocationNumberBean",
+		        "checkDigit": 9,
+		        "companyPrefix": 9111111,
+		        "locationReference": 3
+			},
+			"storeInternalId": "1234",
+			"posTerminalId": "5678",
+			"couponInstance" : {
+		        "@type": "GlobalCouponNumberBean",
+		        "checkDigit": 2,
+		        "companyPrefix": 2222111,
+		        "couponReference": 333,
+		        "serialComponent": 1
+			},
+			"accountNumber" : {
+		        "@type": "GlobalServiceRelationNumberBean",
+		        "checkDigit": 7,
+		        "companyPrefix": 9111111,
+		        "serviceReference": 91
+			},
+			"alternateAccountId": "ABCD",
+			"redemptionDateTime": "2015-08-22T22:52:52-06:00",
+			"rewardMonetaryAmount": 0,
+			"rewardLoyaltyPoints": [
+			],
+			"rewardTradeItems": [
+			],
+			"qualifyingPurchaseAmount": 0,
+			"qualifyingTradeItems" : [
+				{
+					"@type": "QualifyingTradeItemMsg",
+					"tradeItemNumber": {
+						"@type": "GlobalTradeIdentificationNumberBean",
+						"checkDigit": 1,
+						"companyPrefix": 9111111,
+						"itemReference": 13
+					},
+					"tradeItemQuantity": 10,
+					"tradeItemGroup": "trade item group 1"
+				},
+				{
+					"@type": "QualifyingTradeItemMsg",
+					"tradeItemNumber": {
+						"@type": "GlobalTradeIdentificationNumberBean",
+						"checkDigit": 5,
+						"companyPrefix": 9111113,
+						"itemReference": 15
+					},
+					"tradeItemQuantity": 30,
+					"tradeItemGroup": "trade item group 2"
+				}
+			],
+			"validationOverrideReference": 0
+	    }
+	]
+}

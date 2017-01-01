@@ -1,0 +1,33 @@
+[
+	{
+	    	"@type": "DistributionDetailBean",
+		"offerId": 1,
+        "acquisitionPeriods": [
+            {
+	            "@type": "AcquisitionPeriodBean",
+                "timePeriod": {
+	                "@type": "TimePeriodBean",
+			        "endDateTime": "2019-07-31T21:51:51",
+			        "startDateTime": "2019-06-02T02:02:02"
+                }
+            },
+            {
+	            "@type": "AcquisitionPeriodBean",
+                "timePeriod": {
+	                "@type": "TimePeriodBean",
+			        "endDateTime": "2020-03-30T20:50:50",
+			        "startDateTime": "2020-02-01T01:01:01"
+                }
+            }
+        ],
+        "maximumOfferAcquisition": 10,
+        "publicationPeriod": {
+	        "@type": "PublicationPeriodBean",
+            "timePeriod": {
+                "@type": "TimePeriodBean",
+		        "endDateTime": "2020-06-13T23:53:53",
+		        "startDateTime": "2019-01-15T01:01:01"
+            }
+        }
+	}
+]

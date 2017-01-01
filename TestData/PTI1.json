@@ -1,0 +1,13 @@
+[
+	{
+		"@type": "PurchaseTradeItemBean",
+	    "tradeItemGroup": "trade item group 1",
+	    "tradeItemNumber": {
+		    	"@type": "GlobalTradeIdentificationNumberBean",
+	        "checkDigit": 3,
+	        "companyPrefix": 9111112,
+	        "itemReference": 14
+	    },
+	    "tradeItemQuantity": 10
+	}
+]

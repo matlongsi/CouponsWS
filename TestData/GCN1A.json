@@ -1,0 +1,9 @@
+[
+    {
+        "@type": "GlobalCouponNumberBean",
+        "checkDigit": 4,
+        "companyPrefix": 9111111,
+        "couponReference": 331,
+        "serialComponent": 0
+    }
+]

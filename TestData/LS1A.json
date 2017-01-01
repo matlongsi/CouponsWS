@@ -1,0 +1,10 @@
+[
+    {
+		"@type": "LegalStatementBean",
+        "legalStatement": "legal statement 21"
+    },
+    {
+		"@type": "LegalStatementBean",
+        "legalStatement": "legal statement 22"
+    }
+]

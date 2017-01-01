@@ -1,0 +1,8 @@
+[
+	{
+	    "@type": "GlobalLocationNumberBean",
+	    "checkDigit": 7,
+	    "companyPrefix": 9111111,
+	    "locationReference": 1
+	}
+]

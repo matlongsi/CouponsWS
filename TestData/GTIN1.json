@@ -1,0 +1,8 @@
+[
+	{
+	    "@type": "GlobalTradeIdentificationNumberBean",
+	    "checkDigit": 7,
+	    "companyPrefix": 9111111,
+	    "itemReference": 91
+	}
+]

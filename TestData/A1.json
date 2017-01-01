@@ -1,0 +1,15 @@
+[
+    {
+	    	"@type": "ArtworkBean",
+        "artworkType": "PRODUCT_IMAGE",
+        "fileContentDescriptions": [
+            {
+				"@type": "FileContentDescriptionBean",
+				"fileContentDescription": "file content description 1"
+            }
+        ],
+        "fileFormatName": "JPG",
+        "fileName": "artwork file name 1",
+        "fileUri": "www.uri.com ... 1"
+	}
+]

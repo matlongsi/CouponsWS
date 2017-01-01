@@ -1,0 +1,74 @@
+[
+	{
+		"@type": "MarketingMaterialBean",
+        "artworks": [
+            {
+	            	"@type": "ArtworkBean",
+                "artworkType": "PRODUCT_IMAGE",
+                "fileContentDescriptions": [
+                    {
+						"@type": "FileContentDescriptionBean",
+                        "fileContentDescription": "file content description 1"
+                    }
+                ],
+                "fileFormatName": "JPG",
+                "fileName": "artwork file name 1",
+                "fileUri": "www.uri.com ... 1"
+            },
+            {
+    		        	"@type": "ArtworkBean",
+                "artworkType": "PRODUCT_IMAGE",
+                "fileContentDescriptions": [
+                    {
+						"@type": "FileContentDescriptionBean",
+                        "fileContentDescription": "file content description 2"
+                    }
+                ],
+                "fileFormatName": "GIFF",
+                "fileName": "artwork file name 2",
+                "fileUri": "www.uri.com ... 2"
+            }
+        ],
+        "brandName": "brand name",
+        "legalStatements": [
+            {
+				"@type": "LegalStatementBean",
+                "legalStatement": "legal statement 1"
+            },
+            {
+				"@type": "LegalStatementBean",
+                "legalStatement": "legal statement 2"
+            }
+        ],
+        "longDescriptions": [
+            {
+				"@type": "LongDescriptionBean",
+                "longDescription": "long desc 1"
+            },
+            {
+				"@type": "LongDescriptionBean",
+                "longDescription": "long desc 2"
+            }
+        ],
+        "productCategories": [
+            {
+				"@type": "ProductCategoryBean",
+                "categoryName": "product category 1"
+            },
+            {
+				"@type": "ProductCategoryBean",
+                "categoryName": "product category 2"
+            }
+        ],
+        "shortDescriptions": [
+            {
+				"@type": "ShortDescriptionBean",
+                "shortDescription": "short desc 1"
+            },
+            {
+				"@type": "ShortDescriptionBean",
+                "shortDescription": "short desc 2"
+            }
+        ]
+    }
+]

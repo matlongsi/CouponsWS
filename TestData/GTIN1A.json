@@ -1,0 +1,20 @@
+[
+    {
+        "@type": "GlobalTradeIdentificationNumberBean",
+        "checkDigit": 1,
+        "companyPrefix": 9111111,
+        "itemReference": 13
+    },
+	{
+        "@type": "GlobalTradeIdentificationNumberBean",
+        "checkDigit": 3,
+        "companyPrefix": 9111112,
+        "itemReference": 14
+	},
+	{
+        "@type": "GlobalTradeIdentificationNumberBean",
+        "checkDigit": 5,
+        "companyPrefix": 9111113,
+        "itemReference": 15
+	}
+]

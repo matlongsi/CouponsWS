@@ -1,0 +1,7 @@
+[
+	{
+	    "@type": "UsageConditionBean",
+        "maximumCumulativeUse": 10,
+        "maximumUsePerTransaction": 2
+    }
+]

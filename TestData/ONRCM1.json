@@ -1,0 +1,21 @@
+[
+	{
+		"type" : "OfferNotificationReceiptMessage",
+	    "header": {
+	      	"type": "HeaderMessage",
+	        "senderNumber" : {
+	          "type": "GlobalLocationNumberParam",
+	          "glnId": 2
+	        },
+	        "recipientNumber" : {
+	          "type": "GlobalLocationNumberParam",
+	          "glnId": 3
+	        },
+		    "messageId": 8,
+		    "creationDateTime": "2015-08-22T22:52:52-06:00",
+		    "changeDateTime": "",
+		    "changeReason": ""
+	    },
+		"reference": 1
+	}
+]

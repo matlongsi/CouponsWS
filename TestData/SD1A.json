@@ -1,0 +1,10 @@
+[
+    {
+		"@type": "ShortDescriptionBean",
+        "shortDescription": "short desc 21"
+    },
+    {
+		"@type": "ShortDescriptionBean",
+        "shortDescription": "short desc 22"
+    }
+]

@@ -1,0 +1,8 @@
+[
+	{
+	    "@type": "RewardBean",
+		"offerId": 1,
+    		"rewardMonetaryAmount": 0.50,
+	    "rewardType": "MONETARY_REWARD"
+    }
+]

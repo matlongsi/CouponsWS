@@ -1,0 +1,12 @@
+[
+	{
+        "@type": "AwarderPointOfSaleBean",
+        "storeNumber": {
+            "@type": "GlobalLocationNumberBean",
+		    "checkDigit": 7,
+		    "companyPrefix": 9111111,
+		    "locationReference": 1
+        },
+        "storeInternalId": "store int id 1"
+	}
+]

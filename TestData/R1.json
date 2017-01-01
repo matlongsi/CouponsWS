@@ -1,0 +1,28 @@
+[
+	{
+	    "@type": "RewardBean",
+	    "rewardTradeItems": [
+	        {
+	            "@type": "RewardTradeItemBean",
+	            "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 1,
+			        "companyPrefix": 9111111,
+			        "itemReference": 13
+	            },
+	            "tradeItemQuantity": 10
+	        },
+	        {
+	            "@type": "RewardTradeItemBean",
+	            "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 5,
+			        "companyPrefix": 9111113,
+			        "itemReference": 15
+	            },
+	            "tradeItemQuantity": 20
+	        }
+	    ],
+	    "rewardType": "TRADE_ITEM_REWARD"
+	}
+]

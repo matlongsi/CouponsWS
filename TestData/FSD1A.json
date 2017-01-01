@@ -1,0 +1,7 @@
+[
+	{
+	    "@type": "FinancialSettlementDetailBean",
+		"offerId": 1,
+        "offerClearingInstruction": "offer clrng instn ..."
+    }
+]

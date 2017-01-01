@@ -1,0 +1,10 @@
+[
+    {
+		"@type": "LongDescriptionBean",
+        "longDescription": "long desc 1"
+    },
+    {
+		"@type": "LongDescriptionBean",
+        "longDescription": "long desc 2"
+    }
+]

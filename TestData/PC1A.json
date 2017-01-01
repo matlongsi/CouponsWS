@@ -1,0 +1,10 @@
+[
+    {
+		"@type": "ProductCategoryBean",
+        "categoryName": "product category 21"
+    },
+    {
+		"@type": "ProductCategoryBean",
+        "categoryName": "product category 22"
+    }
+]

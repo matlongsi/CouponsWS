@@ -1,0 +1,8 @@
+[
+	{
+	    "@type": "GlobalServiceRelationNumberBean",
+	    "checkDigit": 7,
+	    "companyPrefix": 9111111,
+	    "serviceReference": 91
+	}
+]

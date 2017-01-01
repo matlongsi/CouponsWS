@@ -1,0 +1,54 @@
+{
+	"@type" : "OfferNotificationResponseMessage",
+    "header": {
+      	"@type": "HeaderMessage",
+        "senderNumber" : {
+			"@type": "GlobalLocationNumberBean",
+	        "checkDigit": 9,
+		    "companyPrefix": 9111111,
+		    "locationReference": 3
+        },
+        "recipientNumber" : {
+			"@type": "GlobalLocationNumberBean",
+	        "checkDigit": 7,
+			"companyPrefix": 9111111,
+			"locationReference": 1
+        },
+	    "messageId": 8,
+	    "creationDateTime": "2015-08-22T22:52:52-06:00",
+	    "changeDateTime": "",
+	    "changeReason": ""
+    },
+    "issuerNumber" : {
+		"@type": "GlobalLocationNumberBean",
+        "checkDigit": 8,
+		"companyPrefix": 9111111,
+		"locationReference": 2
+    },
+    "issuerClearingAgentNumber" : {
+		"@type": "GlobalLocationNumberBean",
+        "checkDigit": 8,
+		"companyPrefix": 9111111,
+		"locationReference": 2
+    },
+    "awarderNumber" : {
+		"@type": "GlobalLocationNumberBean",
+        "checkDigit": 7,
+		"companyPrefix": 9111111,
+		"locationReference": 1
+    },
+    "awarderClearingAgentNumber" : {
+		"@type": "GlobalLocationNumberBean",
+        "checkDigit": 9,
+	    "companyPrefix": 9111111,
+	    "locationReference": 3
+    },
+    "offerNumber" : {
+		"@type": "GlobalCouponNumberBean",
+        "checkDigit": 2,
+        "companyPrefix": 2222111,
+        "couponReference": 333,
+        "serialComponent": 0
+    },
+	"responseCode": "ACCEPT"
+}

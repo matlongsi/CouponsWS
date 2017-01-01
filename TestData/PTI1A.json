@@ -1,0 +1,24 @@
+[
+    {
+	    	"@type": "PurchaseTradeItemBean",
+        "tradeItemGroup": "trade item group 1",
+        "tradeItemNumber": {
+	    	"@type": "GlobalTradeIdentificationNumberBean",
+	        "checkDigit": 3,
+	        "companyPrefix": 9111121,
+	        "itemReference": 14
+        },
+        "tradeItemQuantity": 10
+    },
+    {
+    		"@type": "PurchaseTradeItemBean",
+        "tradeItemGroup": "trade item group 2",
+        "tradeItemNumber": {
+	    	"@type": "GlobalTradeIdentificationNumberBean",
+	        "checkDigit": 5,
+	        "companyPrefix": 9111122,
+	        "itemReference": 15
+        },
+        "tradeItemQuantity": 10
+    }
+]

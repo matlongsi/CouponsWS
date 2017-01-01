@@ -1,0 +1,18 @@
+[
+	{
+        "@type": "AcquisitionPeriodBean",
+        "timePeriod": {
+            "@type": "TimePeriodBean",
+            "endDateTime": "2020-11-23T23:55:55",
+            "startDateTime": "2020-10-22T00:05:05"
+        }
+    },
+	{
+        "@type": "AcquisitionPeriodBean",
+        "timePeriod": {
+            "@type": "TimePeriodBean",
+            "endDateTime": "2019-12-22T23:56:56",
+            "startDateTime": "2019-11-22T00:06:06"
+        }
+    }
+]

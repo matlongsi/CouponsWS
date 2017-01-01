@@ -1,0 +1,23 @@
+{
+	"@type" : "OfferNotificationReceiptMessage",
+    "header": {
+      	"@type": "HeaderMessage",
+        "senderNumber" : {
+			"@type": "GlobalLocationNumberBean",
+	        "checkDigit": 9,
+		    "companyPrefix": 9111111,
+		    "locationReference": 3
+        },
+        "recipientNumber" : {
+			"@type": "GlobalLocationNumberBean",
+	        "checkDigit": 8,
+			"companyPrefix": 9111111,
+			"locationReference": 2
+        },
+	    "messageId": 8,
+	    "creationDateTime": "2015-08-22T22:52:52-06:00",
+	    "changeDateTime": "",
+	    "changeReason": ""
+    },
+	"reference": 1
+}

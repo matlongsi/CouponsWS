@@ -1,0 +1,53 @@
+[
+    {
+    		"@type": "ArtworkBean",
+        "artworkType": "PRODUCT_IMAGE",
+        "fileContentDescriptions": [
+            {
+            		"@type": "FileContentDescriptionBean",
+                "fileContentDescription": "file content description 21"
+            }
+        ],
+        "fileFormatName": "JPG",
+        "fileName": "artwork file name 21",
+        "fileUri": "www.uri.com ... 21"
+    },
+    {
+	    	"@type": "ArtworkBean",
+        "artworkType": "PRODUCT_IMAGE",
+        "fileContentDescriptions": [
+            {
+            		"@type": "FileContentDescriptionBean",
+                "fileContentDescription": "file content description 22"
+            },
+            {
+            	"@type": "FileContentDescriptionBean",
+                "fileContentDescription": "file content description 23"
+            }
+        ],
+        "fileFormatName": "GIFF",
+        "fileName": "artwork file name 22",
+        "fileUri": "www.uri.com ... 22"
+    },
+    {
+	    	"@type": "ArtworkBean",
+        "artworkType": "PRODUCT_IMAGE",
+        "fileContentDescriptions": [
+            {
+            		"@type": "FileContentDescriptionBean",
+                "fileContentDescription": "file content description 24"
+            },
+            {
+            		"@type": "FileContentDescriptionBean",
+                "fileContentDescription": "file content description 25"
+            },
+            {
+            		"@type": "FileContentDescriptionBean",
+                "fileContentDescription": "file content description 26"
+            }
+        ],
+        "fileFormatName": "GIFF",
+        "fileName": "artwork file name 23",
+        "fileUri": "www.uri.com ... 23"
+    }
+]

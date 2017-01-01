@@ -1,0 +1,52 @@
+[
+	{
+		"type" : "OfferSetupReceiptMessage",
+	    "header": {
+	      	"type": "HeaderMessage",
+	        "senderNumber" : {
+	          "type": "GlobalLocationNumberParam",
+	          "glnId": 3
+	        },
+	        "recipientNumber" : {
+	          "type": "GlobalLocationNumberParam",
+	          "glnId": 2
+	        },
+		    "messageId": 8,
+		    "creationDateTime": "2015-08-22T22:52:52-06:00",
+		    "changeDateTime": "",
+		    "changeReason": ""
+	    },
+        "issuerNumber" : {
+			"type": "GlobalLocationNumberParam",
+	        "checkDigit": 8,
+			"companyPrefix": 9111111,
+			"locationReference": 2
+        },
+        "issuerClearingAgentNumber" : {
+			"type": "GlobalLocationNumberParam",
+	        "checkDigit": 8,
+			"companyPrefix": 9111111,
+			"locationReference": 2
+        },
+        "awarderNumber" : {
+			"type": "GlobalLocationNumberParam",
+	        "checkDigit": 9,
+			"companyPrefix": 9111111,
+			"locationReference": 3
+        },
+        "awarderClearingAgentNumber" : {
+			"type": "GlobalLocationNumberParam",
+	        "checkDigit": 9,
+		    "companyPrefix": 9111111,
+		    "locationReference": 3
+        },
+        "couponNumber" : {
+			"type": "GlobalCouponNumberParam",
+	        "checkDigit": 4,
+	        "companyPrefix": 2222111,
+	        "couponReference": 333,
+	        "serialComponent": 2
+        },
+		"responseCode": "ACCEPT"
+	}
+]

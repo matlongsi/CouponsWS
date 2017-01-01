@@ -1,0 +1,10 @@
+[
+	{
+	    "@type": "RedemptionPeriodBean",
+	    "timePeriod": {
+	        "@type": "TimePeriodBean",
+	        "endDateTime": "2019-12-22T22:52:52",
+	        "startDateTime": "2019-07-22T02:02:02"
+	    }
+	}
+]

@@ -1,0 +1,10 @@
+[
+    {
+		"@type": "FileContentDescriptionBean",
+		"fileContentDescription": "file content description 1"
+	},
+    {
+		"@type": "FileContentDescriptionBean",
+		"fileContentDescription": "file content description 2"
+	}
+]

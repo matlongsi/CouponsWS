@@ -1,0 +1,44 @@
+[
+	{
+	    "@type": "RewardBean",
+        "rewardTradeItems": [
+            {
+	            "@type": "RewardTradeItemBean",
+                "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 1,
+			        "companyPrefix": 9111111,
+			        "itemReference": 13
+                },
+                "tradeItemQuantity": 10
+            },
+            {
+	            "@type": "RewardTradeItemBean",
+                "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 3,
+			        "companyPrefix": 9111111,
+			        "itemReference": 15
+                },
+                "tradeItemQuantity": 20
+            }
+        ],
+        "rewardType": "TRADE_ITEM_REWARD"
+    },
+	{
+	    "@type": "RewardBean",
+	    "rewardLoyaltyPoints": [
+	        {
+	            "@type": "RewardLoyaltyPointBean",
+	            "loyaltyProgramName": "loyalty program name 1",
+	            "loyaltyPointsQuantity": 10000
+	        },
+	        {
+	            "@type": "RewardLoyaltyPointBean",
+	            "loyaltyProgramName": "loyalty program name 2",
+	            "loyaltyPointsQuantity": 20000
+	        }
+	    ],
+	    "rewardType": "LOYALTY_POINTS_REWARD"
+	}
+]

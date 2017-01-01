@@ -1,0 +1,31 @@
+[
+	{
+	    "@type": "PurchaseRequirementBean",
+        "purchaseMonetaryAmount": 0,
+        "purchaseTradeItems": [
+            {
+	            "@type": "PurchaseTradeItemBean",
+                "tradeItemGroup": "trade item group 1",
+                "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 1,
+			        "companyPrefix": 9111111,
+			        "itemReference": 13
+                },
+                "tradeItemQuantity": 10
+            },
+            {
+	            "@type": "PurchaseTradeItemBean",
+                "tradeItemGroup": "trade item group 2",
+                "tradeItemNumber": {
+	                "@type": "GlobalTradeIdentificationNumberBean",
+			        "checkDigit": 5,
+			        "companyPrefix": 9111113,
+			        "itemReference": 15
+                },
+                "tradeItemQuantity": 30
+            }
+        ],
+        "purchaseRequirementType": "ONE_ITEM_PER_GROUP"
+    }
+]

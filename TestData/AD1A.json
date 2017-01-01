@@ -1,0 +1,51 @@
+[
+    {
+	    "@type": "AwarderDetailBean",
+        "awarderNumber": {
+	        "@type": "GlobalLocationNumberBean",
+		    "checkDigit": 7,
+		    "companyPrefix": 9111111,
+		    "locationReference": 1
+        },
+        "pointOfSales": [
+            {
+	            "@type": "AwarderPointOfSaleBean",
+                "storeNumber": {
+	                "@type": "GlobalLocationNumberBean",
+				    "checkDigit": 8,
+				    "companyPrefix": 9111111,
+				    "locationReference": 2
+                },
+                "storeInternalId": "store internal id 1"
+            },
+            {
+	            "@type": "AwarderPointOfSaleBean",
+                "storeNumber": {
+	                "@type": "GlobalLocationNumberBean",
+				    "checkDigit": 9,
+				    "companyPrefix": 9111111,
+				    "locationReference": 3
+                },
+                "storeInternalId": "store internal id 2"
+            }
+        ],
+        "redemptionPeriods": [
+            {
+	            "@type": "RedemptionPeriodBean",
+                "timePeriod": {
+	                "@type": "TimePeriodBean",
+                    "endDateTime": "2020-02-21T23:59:59",
+                    "startDateTime": "2020-01-21T00:00:00"
+                }
+            },
+            {
+	            "@type": "RedemptionPeriodBean",
+                "timePeriod": {
+	                "@type": "TimePeriodBean",
+                    "endDateTime": "2020-08-21T23:59:59",
+                    "startDateTime": "2020-07-21T01:02:03"
+                }
+            }
+        ]
+    }
+]

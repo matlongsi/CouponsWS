@@ -1,0 +1,17 @@
+[
+    {
+        "@type": "RewardLoyaltyPointBean",
+        "loyaltyProgramName": "loyalty program name 91",
+        "loyaltyPointsQuantity": 91000
+    },
+    {
+        "@type": "RewardLoyaltyPointBean",
+        "loyaltyProgramName": "loyalty program name 92",
+        "loyaltyPointsQuantity": 92000
+    },
+    {
+        "@type": "RewardLoyaltyPointBean",
+        "loyaltyProgramName": "loyalty program name 93",
+        "loyaltyPointsQuantity": 93000
+    }
+]

@@ -1,0 +1,19 @@
+[
+	{
+	    "@type": "RewardBean",
+		"offerId": 1,
+	    "rewardLoyaltyPoints": [
+	        {
+	            "@type": "RewardLoyaltyPointBean",
+	            "loyaltyProgramName": "loyalty program name 1",
+	            "loyaltyPointsQuantity": 10000
+	        },
+	        {
+	            "@type": "RewardLoyaltyPointBean",
+	            "loyaltyProgramName": "loyalty program name 2",
+	            "loyaltyPointsQuantity": 20000
+	        }
+	    ],
+	    "rewardType": "LOYALTY_POINTS_REWARD"
+    }
+]

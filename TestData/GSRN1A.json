@@ -1,0 +1,20 @@
+[
+    {
+	    "@type": "GlobalServiceRelationNumberBean",
+        "checkDigit": 7,
+        "companyPrefix": 9111111,
+        "serviceReference": 91
+    },
+	{
+	    "@type": "GlobalServiceRelationNumberBean",
+        "checkDigit": 8,
+        "companyPrefix": 9111111,
+        "serviceReference": 92
+	},
+	{
+	    "@type": "GlobalServiceRelationNumberBean",
+        "checkDigit": 9,
+        "companyPrefix": 9111111,
+        "serviceReference": 93
+	}
+]

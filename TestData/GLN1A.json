@@ -1,0 +1,20 @@
+[
+	{
+        "@type": "GlobalLocationNumberBean",
+	    "checkDigit": 7,
+	    "companyPrefix": 9111111,
+	    "locationReference": 1
+	},
+	{
+        "@type": "GlobalLocationNumberBean",
+	    "checkDigit": 8,
+	    "companyPrefix": 9111111,
+	    "locationReference": 2
+	},
+	{
+        "@type": "GlobalLocationNumberBean",
+	    "checkDigit": 9,
+	    "companyPrefix": 9111111,
+	    "locationReference": 3
+	}
+]

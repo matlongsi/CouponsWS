@@ -1,0 +1,23 @@
+[
+	{
+        "@type": "GlobalCouponNumberBean",
+        "checkDigit": 5,
+        "companyPrefix": 9111111,
+        "couponReference": 332,
+        "serialComponent": 1
+	},
+	{
+        "@type": "GlobalCouponNumberBean",
+        "checkDigit": 6,
+        "companyPrefix": 9111111,
+        "couponReference": 333,
+        "serialComponent": 2
+	},
+    {
+        "@type": "GlobalCouponNumberBean",
+        "checkDigit": 7,
+        "companyPrefix": 9111111,
+        "couponReference": 334,
+        "serialComponent": 0
+    }
+]

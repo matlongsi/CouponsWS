@@ -1,0 +1,32 @@
+[
+	{
+        "@type": "AwarderPointOfSaleBean",
+        "storeNumber": {
+            "@type": "GlobalLocationNumberBean",
+		    "checkDigit": 8,
+		    "companyPrefix": 9111121,
+		    "locationReference": 1
+        },
+        "storeInternalId": "store int id 1"
+	},
+	{
+        "@type": "AwarderPointOfSaleBean",
+        "storeNumber": {
+            "@type": "GlobalLocationNumberBean",
+		    "checkDigit": 9,
+		    "companyPrefix": 9111121,
+		    "locationReference": 2
+        },
+        "storeInternalId": "store int id 2"
+	},
+	{
+        "@type": "AwarderPointOfSaleBean",
+        "storeNumber": {
+            "@type": "GlobalLocationNumberBean",
+		    "checkDigit": 1,
+		    "companyPrefix": 9111121,
+		    "locationReference": 3
+        },
+        "storeInternalId": "store int id 3"
+	}
+]

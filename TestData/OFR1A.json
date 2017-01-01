@@ -1,0 +1,64 @@
+[
+    {
+	    "@type": "OfferBean",
+        "offerNumber": {
+	        "@type": "GlobalCouponNumberBean",
+	        "checkDigit": 2,
+	        "companyPrefix": 2222111,
+	        "couponReference": 333,
+	        "serialComponent": 0
+        },
+        "distributorNumber": {
+	        "@type": "GlobalLocationNumberBean",
+	        "checkDigit": 7,
+	        "companyPrefix": 9111111,
+	        "locationReference": 1
+        },
+        "issuerNumber": {
+	        "@type": "GlobalLocationNumberBean",
+	        "checkDigit": 8,
+	        "companyPrefix": 9111112,
+	        "locationReference": 1
+        },
+        "offerType": "MANUFACTURER_COUPON",
+        "offerStatus": "ACTIVE",
+        "timePeriod": {
+	        	"@type": "TimePeriodBean",
+	        "endDateTime": "2020-12-31T23:59:59",
+	        "startDateTime": "2019-01-01T00:00:01"
+        },
+        "timeZone": "US/Central",
+		"awarderDetails": []
+    },
+    {
+	    "@type": "OfferBean",
+        "offerNumber": {
+	        "@type": "GlobalCouponNumberBean",
+	        "checkDigit": 4,
+	        "companyPrefix": 2222112,
+	        "couponReference": 334,
+	        "serialComponent": 0
+        },
+        "distributorNumber": {
+	        "@type": "GlobalLocationNumberBean",
+	        "checkDigit": 6,
+	        "companyPrefix": 9911111,
+	        "locationReference": 1
+        },
+        "issuerNumber": {
+	        "@type": "GlobalLocationNumberBean",
+	        "checkDigit": 7,
+	        "companyPrefix": 9911112,
+	        "locationReference": 1
+        },
+        "offerType": "NON_MANUFACTURER_COUPON",
+        "offerStatus": "SETUP",
+        "timePeriod": {
+	        	"@type": "TimePeriodBean",
+	        "endDateTime": "2020-11-30T20:50:50",
+	        "startDateTime": "2019-01-10T00:00:01"
+        },
+        "timeZone": "US/Central",
+		"awarderDetails": []
+    }
+]

@@ -1,0 +1,12 @@
+[
+	{
+	    "@type": "RewardTradeItemBean",
+	    "tradeItemNumber": {
+		    	"@type": "GlobalTradeIdentificationNumberBean",
+	        "checkDigit": 3,
+	        "companyPrefix": 9111112,
+	        "itemReference": 14
+	    },
+	    "tradeItemQuantity": 12
+	}
+]
